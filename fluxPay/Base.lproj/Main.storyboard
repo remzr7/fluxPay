@@ -17,7 +17,7 @@
                         </textAttributes>
                     </navigationBar>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="cPK-rL-3kd"/>
+                        <segue destination="a0v-4h-ez3" kind="relationship" relationship="rootViewController" id="6d7-Qp-hss"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7oK-rz-D9E" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -200,6 +200,9 @@ what would you like to do?</string>
                                 <state key="normal" title="I want to Transfer">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="push" id="8Ly-t2-uGK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.111818932" green="0.11183650050000001" blue="0.1118125319" alpha="1" colorSpace="calibratedRGB"/>
@@ -354,6 +357,9 @@ what would you like to do?</string>
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="a0v-4h-ez3" kind="modal" id="B5s-lU-5ZF"/>
+                                        </connections>
                                     </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="user@mail.com" placeholder="E-mail" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="0Ho-qH-W8H" userLabel="E-mail Text Field">
                                         <rect key="frame" x="57" y="286" width="220" height="40"/>
@@ -451,4 +457,7 @@ what would you like to do?</string>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="6d7-Qp-hss"/>
+    </inferredMetricsTieBreakers>
 </document>
