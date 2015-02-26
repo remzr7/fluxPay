@@ -18,6 +18,7 @@
 @interface ViewController ()<APNumberPadStyle>
 @property (weak, nonatomic) IBOutlet UITextField *NumberField;
 @property (weak, nonatomic) IBOutlet UITextField *moneyField;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *notifButton;
 
 @end
 
@@ -35,6 +36,18 @@
     return [UIColor clearColor];
 
 }
+- (IBAction)notifButtonPressed:(id)sender {
+    
+    UILocalNotification * notification = [[UILocalNotification alloc] init];
+    NSDate * dateWithTenSecsFromNow = [[NSDate alloc]  initWithTimeIntervalSinceNow:20];
+    
+    notification.fireDate = dateWithTenSecsFromNow;
+    
+    notification.alertBody = [NSString stringWithFormat:@"You have paid %@ %@?", _NumberField.text ,_moneyField.text  ];
+    notification.alertAction = @"Confirmation";
+    
+}
+
 
 
 
