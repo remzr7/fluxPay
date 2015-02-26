@@ -9,6 +9,7 @@
 #import "LoginViewController.h"
 
 @interface LoginViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *loginButton;
 
 @end
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _loginButton.layer.borderColor = [[UIColor whiteColor] CGColor];
+    _loginButton.layer.cornerRadius = 1;
+    _loginButton.layer.borderWidth = 1;
+
     
 
 }
