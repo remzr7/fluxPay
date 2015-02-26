@@ -2,8 +2,8 @@
 //  TextFieldEffects.h
 //  TextFieldEffects
 //
-//  Created by Raúl Riera on 22/01/2015.
-//  Copyright (c) 2015 Raul Riera. All rights reserved.
+//  Created by Rameez Remsudeen  on 2/26/15.
+//  Copyright (c) 2015 Rameez Remsudeen. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

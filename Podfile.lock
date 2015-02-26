@@ -1,0 +1,28 @@
+PODS:
+  - ANDLineChartView (0.2.2)
+  - APNumberPad (1.1.2)
+  - Canvas (0.1.2)
+  - FrameAccessor (1.3.2)
+  - GraphKit (1.1.1):
+    - FrameAccessor (~> 1.3.2)
+    - MKFoundationKit/NSArray (~> 1.2.2)
+  - JVFloatLabeledTextField (1.0.2)
+  - MKFoundationKit/NSArray (1.2.3)
+
+DEPENDENCIES:
+  - ANDLineChartView (= 0.2.2)
+  - APNumberPad
+  - Canvas
+  - GraphKit
+  - JVFloatLabeledTextField
+
+SPEC CHECKSUMS:
+  ANDLineChartView: a851d07c40c52fcc853f8cdb5f4fd54071f9cdf6
+  APNumberPad: 944238a3b5013d84df84d25d19b3e024e797daab
+  Canvas: ae2faca05a15c4d6659fb3ae5e2a14817df4449a
+  FrameAccessor: 5eec95b29b5e9a3afe72a7a2e9ed25b000d3bcc3
+  GraphKit: 951cdad6f6fad9f77e06185af3e1c20be349061b
+  JVFloatLabeledTextField: c1ad6b4b5bd77115cfe6c71ba4c023866df5c4cf
+  MKFoundationKit: 4858fe474ee45f988db5ff1e229d700743e71ed8
+
+COCOAPODS: 0.35.0

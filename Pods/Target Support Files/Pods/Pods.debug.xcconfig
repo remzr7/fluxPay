@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ANDLineChartView" "${PODS_ROOT}/Headers/Public/APNumberPad" "${PODS_ROOT}/Headers/Public/Canvas" "${PODS_ROOT}/Headers/Public/FrameAccessor" "${PODS_ROOT}/Headers/Public/GraphKit" "${PODS_ROOT}/Headers/Public/JVFloatLabeledTextField" "${PODS_ROOT}/Headers/Public/MKFoundationKit"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ANDLineChartView" -isystem "${PODS_ROOT}/Headers/Public/APNumberPad" -isystem "${PODS_ROOT}/Headers/Public/Canvas" -isystem "${PODS_ROOT}/Headers/Public/FrameAccessor" -isystem "${PODS_ROOT}/Headers/Public/GraphKit" -isystem "${PODS_ROOT}/Headers/Public/JVFloatLabeledTextField" -isystem "${PODS_ROOT}/Headers/Public/MKFoundationKit"
+OTHER_LDFLAGS = -ObjC -l"Pods-ANDLineChartView" -l"Pods-APNumberPad" -l"Pods-Canvas" -l"Pods-FrameAccessor" -l"Pods-GraphKit" -l"Pods-JVFloatLabeledTextField" -l"Pods-MKFoundationKit" -framework "Foundation" -framework "UIKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods
