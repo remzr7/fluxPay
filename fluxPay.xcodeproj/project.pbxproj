@@ -34,6 +34,7 @@
 		2DE6876E1A9E71BA00CC8D4C /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE687641A9E71BA00CC8D4C /* YokoTextField.swift */; };
 		2DE687791A9E7DD600CC8D4C /* APDarkPadStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE687781A9E7DD600CC8D4C /* APDarkPadStyle.m */; };
 		2DE6877C1A9EA41300CC8D4C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6877B1A9EA41300CC8D4C /* LoginViewController.m */; };
+		E944C36B1A9EFAC700835D2A /* PaymentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E944C36A1A9EFAC700835D2A /* PaymentsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,8 @@
 		6C6408561AD4FA8E19B1DF97 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E40AFD787E9046E4F66A39 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B31C6F476EEE98BB105BA3E4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E944C3691A9EFAC700835D2A /* PaymentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentsViewController.h; sourceTree = "<group>"; };
+		E944C36A1A9EFAC700835D2A /* PaymentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +193,8 @@
 				2DE61FD01A9DEADE0095179D /* ViewController.h */,
 				2DE61FD11A9DEADE0095179D /* ViewController.m */,
 				2DE61FD31A9DEADE0095179D /* Main.storyboard */,
+				E944C3691A9EFAC700835D2A /* PaymentsViewController.h */,
+				E944C36A1A9EFAC700835D2A /* PaymentsViewController.m */,
 				2DE6877A1A9EA41300CC8D4C /* LoginViewController.h */,
 				2DE6877B1A9EA41300CC8D4C /* LoginViewController.m */,
 				2DE61FEF1A9DEE780095179D /* DataVisualizationViewController.h */,
@@ -506,6 +511,7 @@
 				2DE687201A9E67C600CC8D4C /* FloatLabelTextView.swift in Sources */,
 				2DE687791A9E7DD600CC8D4C /* APDarkPadStyle.m in Sources */,
 				2DE6871F1A9E67C600CC8D4C /* FloatLabelTextField.swift in Sources */,
+				E944C36B1A9EFAC700835D2A /* PaymentsViewController.m in Sources */,
 				2DE61FCC1A9DEADE0095179D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -832,6 +838,7 @@
 				2DE687551A9E702000CC8D4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DE687571A9E702000CC8D4C /* Build configuration list for PBXNativeTarget "TextFieldEffectsTests" */ = {
 			isa = XCConfigurationList;
@@ -840,6 +847,7 @@
 				2DE687591A9E702000CC8D4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
