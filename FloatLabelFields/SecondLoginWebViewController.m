@@ -7,11 +7,17 @@
 //
 
 #import "SecondLoginWebViewController.h"
+#import <MBProgressHUD.h>
+#import "RTSpinKitView.h"
 
 @interface SecondLoginWebViewController ()<UIWebViewDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @property (weak, nonatomic) NSURLRequest * oldRequest;
+@property (strong, nonatomic) RTSpinKitView *spinner;
+@property (strong, nonatomic)  MBProgressHUD *hud;
+@property BOOL isSpinning;
+
 @end
 
 @implementation SecondLoginWebViewController
@@ -31,6 +37,34 @@
     
     
 }
+
+-(void) startSpinning
+{
+    _spinner = [[RTSpinKitView alloc] initWithStyle:RTSpinKitViewStylePlane color:[UIColor colorWithRed:0.466 green:0.156 blue:0.643 alpha:1.000]];
+    
+    _hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    _hud.square = YES;
+    _hud.mode = MBProgressHUDModeCustomView;
+    _hud.customView = _spinner;
+    _hud.dimBackground = YES;
+    _hud.cornerRadius = 2;
+    _hud.labelFont = [UIFont fontWithName:@"HelveticaNeue-Thin" size:20];
+    _hud.color = [UIColor colorWithWhite:0.126 alpha:0.600];
+    _hud.labelText = @"Loading..";
+    
+    [_spinner startAnimating];
+    _isSpinning = YES;
+}
+
+-(void) stopSpinning
+{
+    _isSpinning = NO;
+    [_spinner stopAnimating];
+    [_hud hide:YES];
+    
+    
+}
+
 
 - (NSURLRequest *)connection: (NSURLConnection *)connection
              willSendRequest: (NSURLRequest *)request
@@ -69,8 +103,18 @@
     NSLog(@"Heyy");
     
     NSLog(@"xyy url is %@", [request mainDocumentURL]);
+    
+    
+    if ([[[request mainDocumentURL]absoluteString] containsString:@"success"]) {
+        
+        [self startSpinning];
+        
+                
+        return NO;
+        
+    }
+    
 
-    [self updateAddress:request];
     
     return YES;
 }
@@ -81,8 +125,16 @@
     
     if ([currentURL containsString:@"success"]) {
         
-    
-    NSLog(@"sycess url is %@", currentURL);
+//        [self startSpinning];
+//    NSLog(@"sycess url is %@", currentURL);
+        
+        //Shift to next view
+        
+        //get request
+        
+        //dont put hp
+        
+        
     }
     
     else

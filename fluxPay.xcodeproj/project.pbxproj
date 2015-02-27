@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		09DC0E82FEF45719C521B45E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6408561AD4FA8E19B1DF97 /* libPods.a */; };
+		2D39AF4E1A9FA22E002D1E0A /* SecondLoginWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D39AF4D1A9FA22E002D1E0A /* SecondLoginWebViewController.m */; };
+		2D39AF511A9FC970002D1E0A /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D39AF501A9FC970002D1E0A /* PayViewController.m */; };
+		2D39AF541A9FD0FB002D1E0A /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D39AF531A9FD0FB002D1E0A /* QRCodeViewController.m */; };
+		2D39AF571AA02B25002D1E0A /* RTSpinKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D39AF561AA02B25002D1E0A /* RTSpinKitView.m */; };
 		2DE61FCC1A9DEADE0095179D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE61FCB1A9DEADE0095179D /* main.m */; };
 		2DE61FCF1A9DEADE0095179D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE61FCE1A9DEADE0095179D /* AppDelegate.m */; };
 		2DE61FD21A9DEADE0095179D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE61FD11A9DEADE0095179D /* ViewController.m */; };
@@ -83,6 +87,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2D39AF4C1A9FA22E002D1E0A /* SecondLoginWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLoginWebViewController.h; sourceTree = "<group>"; };
+		2D39AF4D1A9FA22E002D1E0A /* SecondLoginWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLoginWebViewController.m; sourceTree = "<group>"; };
+		2D39AF4F1A9FC970002D1E0A /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
+		2D39AF501A9FC970002D1E0A /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
+		2D39AF521A9FD0FB002D1E0A /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
+		2D39AF531A9FD0FB002D1E0A /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
+		2D39AF551AA02B25002D1E0A /* RTSpinKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitView.h; sourceTree = "<group>"; };
+		2D39AF561AA02B25002D1E0A /* RTSpinKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitView.m; sourceTree = "<group>"; };
 		2DE61FC61A9DEADE0095179D /* fluxPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fluxPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE61FCA1A9DEADE0095179D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DE61FCB1A9DEADE0095179D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -188,13 +200,19 @@
 		2DE61FC81A9DEADE0095179D /* fluxPay */ = {
 			isa = PBXGroup;
 			children = (
+				2D39AF551AA02B25002D1E0A /* RTSpinKitView.h */,
+				2D39AF561AA02B25002D1E0A /* RTSpinKitView.m */,
 				2DE61FCD1A9DEADE0095179D /* AppDelegate.h */,
 				2DE61FCE1A9DEADE0095179D /* AppDelegate.m */,
 				2DE61FD01A9DEADE0095179D /* ViewController.h */,
 				2DE61FD11A9DEADE0095179D /* ViewController.m */,
 				2DE61FD31A9DEADE0095179D /* Main.storyboard */,
+				2D39AF4F1A9FC970002D1E0A /* PayViewController.h */,
+				2D39AF501A9FC970002D1E0A /* PayViewController.m */,
 				E944C3691A9EFAC700835D2A /* PaymentsViewController.h */,
 				E944C36A1A9EFAC700835D2A /* PaymentsViewController.m */,
+				2D39AF521A9FD0FB002D1E0A /* QRCodeViewController.h */,
+				2D39AF531A9FD0FB002D1E0A /* QRCodeViewController.m */,
 				2DE6877A1A9EA41300CC8D4C /* LoginViewController.h */,
 				2DE6877B1A9EA41300CC8D4C /* LoginViewController.m */,
 				2DE61FEF1A9DEE780095179D /* DataVisualizationViewController.h */,
@@ -239,6 +257,8 @@
 			children = (
 				2DE6871D1A9E67C600CC8D4C /* FloatLabelTextField.swift */,
 				2DE6871E1A9E67C600CC8D4C /* FloatLabelTextView.swift */,
+				2D39AF4C1A9FA22E002D1E0A /* SecondLoginWebViewController.h */,
+				2D39AF4D1A9FA22E002D1E0A /* SecondLoginWebViewController.m */,
 			);
 			path = FloatLabelFields;
 			sourceTree = "<group>";
@@ -506,13 +526,17 @@
 			files = (
 				2DE6877C1A9EA41300CC8D4C /* LoginViewController.m in Sources */,
 				2DE61FD21A9DEADE0095179D /* ViewController.m in Sources */,
+				2D39AF541A9FD0FB002D1E0A /* QRCodeViewController.m in Sources */,
 				2DE61FF11A9DEE780095179D /* DataVisualizationViewController.m in Sources */,
+				2D39AF4E1A9FA22E002D1E0A /* SecondLoginWebViewController.m in Sources */,
 				2DE61FCF1A9DEADE0095179D /* AppDelegate.m in Sources */,
+				2D39AF571AA02B25002D1E0A /* RTSpinKitView.m in Sources */,
 				2DE687201A9E67C600CC8D4C /* FloatLabelTextView.swift in Sources */,
 				2DE687791A9E7DD600CC8D4C /* APDarkPadStyle.m in Sources */,
 				2DE6871F1A9E67C600CC8D4C /* FloatLabelTextField.swift in Sources */,
 				E944C36B1A9EFAC700835D2A /* PaymentsViewController.m in Sources */,
 				2DE61FCC1A9DEADE0095179D /* main.m in Sources */,
+				2D39AF511A9FC970002D1E0A /* PayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
