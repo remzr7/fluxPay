@@ -1,10 +1,103 @@
+Pods/
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
+#
 
-fluxPay.xcodeproj/xcuserdata/shubhamgoyal.xcuserdatad/xcschemes/TextFieldEffects.xcscheme
+*.swp
 
-fluxPay.xcodeproj/xcuserdata/shubhamgoyal.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/Pods.xcodeproj/project.pbxproj
 
-fluxPay.xcworkspace/xcshareddata/fluxPay.xccheckout
+*.xcconfig
 
-fluxPay.xcworkspace/xcuserdata/shubhamgoyal.xcuserdatad/UserInterfaceState.xcuserstate
+*.xcconfig
 
-Pods/Pods.xcodeproj/xcuserdata/shubhamgoyal.xcuserdatad/xcschemes/xcschememanagement.plist
+TextFieldEffectsTests/TextFieldEffectsTests.m
+
+TextFieldEffectsTests/Info.plist
+
+TextFieldEffects/Info.plist
+
+Pods/Target Support Files/Pods/Pods.release.xcconfig
+
+*.xcconfig
+
+*.xcconfig
+
+Pods/Target Support Files/Pods/Pods.debug.xcconfig
+
+Pods/Target Support Files/Pods/Pods-environment.h
+
+Pods/Target Support Files/Pods/Pods-acknowledgements.plist
+
+Pods/Target Support Files/Pods/Pods-acknowledgements.markdown
+
+Pods/Target Support Files/Pods-MKFoundationKit/Pods-MKFoundationKit-Private.xcconfig
+
+Pods/Target Support Files/Pods-JVFloatLabeledTextField/Pods-JVFloatLabeledTextField-Private.xcconfig
+
+Pods/Target Support Files/Pods-GraphKit/Pods-GraphKit-Private.xcconfig
+
+Pods/Target Support Files/Pods-FrameAccessor/Pods-FrameAccessor-Private.xcconfig
+
+Pods/Target Support Files/Pods-Canvas/Pods-Canvas-Private.xcconfig
+
+Pods/Target Support Files/Pods-APNumberPad/Pods-APNumberPad-Private.xcconfig
+
+Pods/Target Support Files/Pods-ANDLineChartView/Pods-ANDLineChartView-Private.xcconfig
+
+fluxPay.xcodeproj/xcuserdata/shubhamgoyal.xcuserdatad/xcschemes/fluxPay.xcscheme
+
+fluxPay.xcodeproj/xcuserdata/shubhamgoyal.xcuserdatad/xcschemes/fluxPay.xcscheme
+
+Pods/Pods.xcodeproj/project.pbxproj
+
+Pods/Target Support Files/Pods-ANDLineChartView/Pods-ANDLineChartView-Private.xcconfig
+
+Pods/Target Support Files/Pods-APNumberPad/Pods-APNumberPad-Private.xcconfig
+
+Pods/Target Support Files/Pods-Canvas/Pods-Canvas-Private.xcconfig
+
+Pods/Target Support Files/Pods-GraphKit/Pods-GraphKit-Private.xcconfig
+
+Pods/Target Support Files/Pods-FrameAccessor/Pods-FrameAccessor-Private.xcconfig
+
+Pods/Target Support Files/Pods-JVFloatLabeledTextField/Pods-JVFloatLabeledTextField-Private.xcconfig
+
+Pods/Target Support Files/Pods-MKFoundationKit/Pods-MKFoundationKit-Private.xcconfig
+
+Pods/Target Support Files/Pods/Pods-acknowledgements.markdown
+
+Pods/Target Support Files/Pods/Pods-acknowledgements.plist
+
+Pods/Target Support Files/Pods/Pods-environment.h
+
+Pods/Target Support Files/Pods/Pods.debug.xcconfig
+
+Pods/Target Support Files/Pods/Pods.release.xcconfig
+
+TextFieldEffects/Info.plist
+
+TextFieldEffects/TextFieldEffects.h
+
+TextFieldEffectsTests/Info.plist

@@ -22,23 +22,21 @@
 		2DE61FF11A9DEE780095179D /* DataVisualizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE61FF01A9DEE780095179D /* DataVisualizationViewController.m */; };
 		2DE6871F1A9E67C600CC8D4C /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6871D1A9E67C600CC8D4C /* FloatLabelTextField.swift */; };
 		2DE687201A9E67C600CC8D4C /* FloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6871E1A9E67C600CC8D4C /* FloatLabelTextView.swift */; };
-		2DE687451A9E702000CC8D4C /* TextFieldEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE6873A1A9E701F00CC8D4C /* TextFieldEffects.framework */; };
-		2DE6874E1A9E702000CC8D4C /* TextFieldEffectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6874D1A9E702000CC8D4C /* TextFieldEffectsTests.swift */; };
-		2DE687511A9E702000CC8D4C /* TextFieldEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE6873A1A9E701F00CC8D4C /* TextFieldEffects.framework */; };
-		2DE687521A9E702000CC8D4C /* TextFieldEffects.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE6873A1A9E701F00CC8D4C /* TextFieldEffects.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2DE687651A9E71BA00CC8D4C /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6875B1A9E71BA00CC8D4C /* HoshiTextField.swift */; };
-		2DE687661A9E71BA00CC8D4C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE6875C1A9E71BA00CC8D4C /* Info.plist */; };
-		2DE687671A9E71BA00CC8D4C /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6875D1A9E71BA00CC8D4C /* IsaoTextField.swift */; };
-		2DE687681A9E71BA00CC8D4C /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6875E1A9E71BA00CC8D4C /* JiroTextField.swift */; };
-		2DE687691A9E71BA00CC8D4C /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6875F1A9E71BA00CC8D4C /* KaedeTextField.swift */; };
-		2DE6876A1A9E71BA00CC8D4C /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE687601A9E71BA00CC8D4C /* MadokaTextField.swift */; };
-		2DE6876B1A9E71BA00CC8D4C /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE687611A9E71BA00CC8D4C /* MinoruTextField.swift */; };
-		2DE6876C1A9E71BA00CC8D4C /* TextFieldEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE687621A9E71BA00CC8D4C /* TextFieldEffects.h */; };
-		2DE6876D1A9E71BA00CC8D4C /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE687631A9E71BA00CC8D4C /* TextFieldsEffects.swift */; };
-		2DE6876E1A9E71BA00CC8D4C /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE687641A9E71BA00CC8D4C /* YokoTextField.swift */; };
 		2DE687791A9E7DD600CC8D4C /* APDarkPadStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE687781A9E7DD600CC8D4C /* APDarkPadStyle.m */; };
 		2DE6877C1A9EA41300CC8D4C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6877B1A9EA41300CC8D4C /* LoginViewController.m */; };
 		E944C36B1A9EFAC700835D2A /* PaymentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E944C36A1A9EFAC700835D2A /* PaymentsViewController.m */; };
+		E9F0462B1AA0343100A21444 /* TextFieldEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = E9F0462A1AA0343100A21444 /* TextFieldEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9F046311AA0343100A21444 /* TextFieldEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F046261AA0343000A21444 /* TextFieldEffects.framework */; };
+		E9F0463D1AA0343100A21444 /* TextFieldEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F046261AA0343000A21444 /* TextFieldEffects.framework */; };
+		E9F0463E1AA0343100A21444 /* TextFieldEffects.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9F046261AA0343000A21444 /* TextFieldEffects.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9F0464D1AA0345700A21444 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F046451AA0345700A21444 /* HoshiTextField.swift */; };
+		E9F0464E1AA0345700A21444 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F046461AA0345700A21444 /* IsaoTextField.swift */; };
+		E9F0464F1AA0345700A21444 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F046471AA0345700A21444 /* JiroTextField.swift */; };
+		E9F046501AA0345700A21444 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F046481AA0345700A21444 /* KaedeTextField.swift */; };
+		E9F046511AA0345700A21444 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F046491AA0345700A21444 /* MadokaTextField.swift */; };
+		E9F046521AA0345700A21444 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0464A1AA0345700A21444 /* MinoruTextField.swift */; };
+		E9F046531AA0345700A21444 /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0464B1AA0345700A21444 /* TextFieldsEffects.swift */; };
+		E9F046541AA0345700A21444 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0464C1AA0345700A21444 /* YokoTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,25 +47,25 @@
 			remoteGlobalIDString = 2DE61FC51A9DEADE0095179D;
 			remoteInfo = fluxPay;
 		};
-		2DE687461A9E702000CC8D4C /* PBXContainerItemProxy */ = {
+		E9F046321AA0343100A21444 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2DE61FBE1A9DEADE0095179D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2DE687391A9E701F00CC8D4C;
+			remoteGlobalIDString = E9F046251AA0343000A21444;
 			remoteInfo = TextFieldEffects;
 		};
-		2DE687481A9E702000CC8D4C /* PBXContainerItemProxy */ = {
+		E9F046341AA0343100A21444 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2DE61FBE1A9DEADE0095179D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2DE61FC51A9DEADE0095179D;
 			remoteInfo = fluxPay;
 		};
-		2DE6874F1A9E702000CC8D4C /* PBXContainerItemProxy */ = {
+		E9F0463B1AA0343100A21444 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2DE61FBE1A9DEADE0095179D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2DE687391A9E701F00CC8D4C;
+			remoteGlobalIDString = E9F046251AA0343000A21444;
 			remoteInfo = TextFieldEffects;
 		};
 /* End PBXContainerItemProxy section */
@@ -79,7 +77,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2DE687521A9E702000CC8D4C /* TextFieldEffects.framework in Embed Frameworks */,
+				E9F0463E1AA0343100A21444 /* TextFieldEffects.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,20 +110,8 @@
 		2DE61FF01A9DEE780095179D /* DataVisualizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataVisualizationViewController.m; sourceTree = "<group>"; };
 		2DE6871D1A9E67C600CC8D4C /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
 		2DE6871E1A9E67C600CC8D4C /* FloatLabelTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextView.swift; sourceTree = "<group>"; };
-		2DE6873A1A9E701F00CC8D4C /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DE687441A9E702000CC8D4C /* TextFieldEffectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldEffectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE6874C1A9E702000CC8D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DE6874D1A9E702000CC8D4C /* TextFieldEffectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEffectsTests.swift; sourceTree = "<group>"; };
-		2DE6875B1A9E71BA00CC8D4C /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
-		2DE6875C1A9E71BA00CC8D4C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DE6875D1A9E71BA00CC8D4C /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsaoTextField.swift; sourceTree = "<group>"; };
-		2DE6875E1A9E71BA00CC8D4C /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JiroTextField.swift; sourceTree = "<group>"; };
-		2DE6875F1A9E71BA00CC8D4C /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
-		2DE687601A9E71BA00CC8D4C /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadokaTextField.swift; sourceTree = "<group>"; };
-		2DE687611A9E71BA00CC8D4C /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinoruTextField.swift; sourceTree = "<group>"; };
-		2DE687621A9E71BA00CC8D4C /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
-		2DE687631A9E71BA00CC8D4C /* TextFieldsEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldsEffects.swift; sourceTree = "<group>"; };
-		2DE687641A9E71BA00CC8D4C /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YokoTextField.swift; sourceTree = "<group>"; };
 		2DE687771A9E7DD600CC8D4C /* APDarkPadStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDarkPadStyle.h; sourceTree = "<group>"; };
 		2DE687781A9E7DD600CC8D4C /* APDarkPadStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDarkPadStyle.m; sourceTree = "<group>"; };
 		2DE6877A1A9EA41300CC8D4C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -135,6 +121,18 @@
 		B31C6F476EEE98BB105BA3E4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E944C3691A9EFAC700835D2A /* PaymentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentsViewController.h; sourceTree = "<group>"; };
 		E944C36A1A9EFAC700835D2A /* PaymentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentsViewController.m; sourceTree = "<group>"; };
+		E9F046261AA0343000A21444 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F046291AA0343100A21444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F0462A1AA0343100A21444 /* TextFieldEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
+		E9F046301AA0343100A21444 /* TextFieldEffectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldEffectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F046451AA0345700A21444 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = ../../fluxPay/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		E9F046461AA0345700A21444 /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = ../../fluxPay/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		E9F046471AA0345700A21444 /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = ../../fluxPay/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		E9F046481AA0345700A21444 /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = ../../fluxPay/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		E9F046491AA0345700A21444 /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = ../../fluxPay/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		E9F0464A1AA0345700A21444 /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = ../../fluxPay/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		E9F0464B1AA0345700A21444 /* TextFieldsEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextFieldsEffects.swift; path = ../../fluxPay/TextFieldEffects/TextFieldsEffects.swift; sourceTree = "<group>"; };
+		E9F0464C1AA0345700A21444 /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = ../../fluxPay/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09DC0E82FEF45719C521B45E /* libPods.a in Frameworks */,
-				2DE687511A9E702000CC8D4C /* TextFieldEffects.framework in Frameworks */,
+				E9F0463D1AA0343100A21444 /* TextFieldEffects.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,18 +152,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DE687361A9E701F00CC8D4C /* Frameworks */ = {
+		E9F046221AA0343000A21444 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DE687411A9E702000CC8D4C /* Frameworks */ = {
+		E9F0462D1AA0343100A21444 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE687451A9E702000CC8D4C /* TextFieldEffects.framework in Frameworks */,
+				E9F046311AA0343100A21444 /* TextFieldEffects.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,11 +173,11 @@
 		2DE61FBD1A9DEADE0095179D = {
 			isa = PBXGroup;
 			children = (
-				2DE6875A1A9E71BA00CC8D4C /* TextFieldEffects */,
 				2DE6871C1A9E67C600CC8D4C /* FloatLabelFields */,
 				2DE61FC81A9DEADE0095179D /* fluxPay */,
 				2DE61FE21A9DEADF0095179D /* fluxPayTests */,
 				2DE6874A1A9E702000CC8D4C /* TextFieldEffectsTests */,
+				E9F046271AA0343100A21444 /* TextFieldEffects */,
 				2DE61FC71A9DEADE0095179D /* Products */,
 				E19F434D9E15C488403CEC28 /* Pods */,
 				542E080D28D801AB361C1C87 /* Frameworks */,
@@ -191,8 +189,8 @@
 			children = (
 				2DE61FC61A9DEADE0095179D /* fluxPay.app */,
 				2DE61FDF1A9DEADF0095179D /* fluxPayTests.xctest */,
-				2DE6873A1A9E701F00CC8D4C /* TextFieldEffects.framework */,
-				2DE687441A9E702000CC8D4C /* TextFieldEffectsTests.xctest */,
+				E9F046261AA0343000A21444 /* TextFieldEffects.framework */,
+				E9F046301AA0343100A21444 /* TextFieldEffectsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,24 +278,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2DE6875A1A9E71BA00CC8D4C /* TextFieldEffects */ = {
-			isa = PBXGroup;
-			children = (
-				2DE6875B1A9E71BA00CC8D4C /* HoshiTextField.swift */,
-				2DE6875C1A9E71BA00CC8D4C /* Info.plist */,
-				2DE6875D1A9E71BA00CC8D4C /* IsaoTextField.swift */,
-				2DE6875E1A9E71BA00CC8D4C /* JiroTextField.swift */,
-				2DE6875F1A9E71BA00CC8D4C /* KaedeTextField.swift */,
-				2DE687601A9E71BA00CC8D4C /* MadokaTextField.swift */,
-				2DE687611A9E71BA00CC8D4C /* MinoruTextField.swift */,
-				2DE687621A9E71BA00CC8D4C /* TextFieldEffects.h */,
-				2DE687631A9E71BA00CC8D4C /* TextFieldsEffects.swift */,
-				2DE687641A9E71BA00CC8D4C /* YokoTextField.swift */,
-			);
-			name = TextFieldEffects;
-			path = "../../Downloads/TextFieldEffects-master/TextFieldEffects/TextFieldEffects";
-			sourceTree = "<group>";
-		};
 		542E080D28D801AB361C1C87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,14 +295,39 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E9F046271AA0343100A21444 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0462A1AA0343100A21444 /* TextFieldEffects.h */,
+				E9F046451AA0345700A21444 /* HoshiTextField.swift */,
+				E9F046461AA0345700A21444 /* IsaoTextField.swift */,
+				E9F046471AA0345700A21444 /* JiroTextField.swift */,
+				E9F046481AA0345700A21444 /* KaedeTextField.swift */,
+				E9F046491AA0345700A21444 /* MadokaTextField.swift */,
+				E9F0464A1AA0345700A21444 /* MinoruTextField.swift */,
+				E9F0464B1AA0345700A21444 /* TextFieldsEffects.swift */,
+				E9F0464C1AA0345700A21444 /* YokoTextField.swift */,
+				E9F046281AA0343100A21444 /* Supporting Files */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		E9F046281AA0343100A21444 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9F046291AA0343100A21444 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2DE687371A9E701F00CC8D4C /* Headers */ = {
+		E9F046231AA0343000A21444 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE6876C1A9E71BA00CC8D4C /* TextFieldEffects.h in Headers */,
+				E9F0462B1AA0343100A21444 /* TextFieldEffects.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +348,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2DE687501A9E702000CC8D4C /* PBXTargetDependency */,
+				E9F0463C1AA0343100A21444 /* PBXTargetDependency */,
 			);
 			name = fluxPay;
 			productName = fluxPay;
@@ -368,14 +373,14 @@
 			productReference = 2DE61FDF1A9DEADF0095179D /* fluxPayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2DE687391A9E701F00CC8D4C /* TextFieldEffects */ = {
+		E9F046251AA0343000A21444 /* TextFieldEffects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DE687531A9E702000CC8D4C /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildConfigurationList = E9F0463F1AA0343100A21444 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
 			buildPhases = (
-				2DE687351A9E701F00CC8D4C /* Sources */,
-				2DE687361A9E701F00CC8D4C /* Frameworks */,
-				2DE687371A9E701F00CC8D4C /* Headers */,
-				2DE687381A9E701F00CC8D4C /* Resources */,
+				E9F046211AA0343000A21444 /* Sources */,
+				E9F046221AA0343000A21444 /* Frameworks */,
+				E9F046231AA0343000A21444 /* Headers */,
+				E9F046241AA0343000A21444 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -383,26 +388,26 @@
 			);
 			name = TextFieldEffects;
 			productName = TextFieldEffects;
-			productReference = 2DE6873A1A9E701F00CC8D4C /* TextFieldEffects.framework */;
+			productReference = E9F046261AA0343000A21444 /* TextFieldEffects.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2DE687431A9E702000CC8D4C /* TextFieldEffectsTests */ = {
+		E9F0462F1AA0343100A21444 /* TextFieldEffectsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DE687571A9E702000CC8D4C /* Build configuration list for PBXNativeTarget "TextFieldEffectsTests" */;
+			buildConfigurationList = E9F046421AA0343100A21444 /* Build configuration list for PBXNativeTarget "TextFieldEffectsTests" */;
 			buildPhases = (
-				2DE687401A9E702000CC8D4C /* Sources */,
-				2DE687411A9E702000CC8D4C /* Frameworks */,
-				2DE687421A9E702000CC8D4C /* Resources */,
+				E9F0462C1AA0343100A21444 /* Sources */,
+				E9F0462D1AA0343100A21444 /* Frameworks */,
+				E9F0462E1AA0343100A21444 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2DE687471A9E702000CC8D4C /* PBXTargetDependency */,
-				2DE687491A9E702000CC8D4C /* PBXTargetDependency */,
+				E9F046331AA0343100A21444 /* PBXTargetDependency */,
+				E9F046351AA0343100A21444 /* PBXTargetDependency */,
 			);
 			name = TextFieldEffectsTests;
 			productName = TextFieldEffectsTests;
-			productReference = 2DE687441A9E702000CC8D4C /* TextFieldEffectsTests.xctest */;
+			productReference = E9F046301AA0343100A21444 /* TextFieldEffectsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -421,10 +426,10 @@
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = 2DE61FC51A9DEADE0095179D;
 					};
-					2DE687391A9E701F00CC8D4C = {
+					E9F046251AA0343000A21444 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					2DE687431A9E702000CC8D4C = {
+					E9F0462F1AA0343100A21444 = {
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = 2DE61FC51A9DEADE0095179D;
 					};
@@ -445,8 +450,8 @@
 			targets = (
 				2DE61FC51A9DEADE0095179D /* fluxPay */,
 				2DE61FDE1A9DEADF0095179D /* fluxPayTests */,
-				2DE687391A9E701F00CC8D4C /* TextFieldEffects */,
-				2DE687431A9E702000CC8D4C /* TextFieldEffectsTests */,
+				E9F046251AA0343000A21444 /* TextFieldEffects */,
+				E9F0462F1AA0343100A21444 /* TextFieldEffectsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -469,15 +474,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DE687381A9E701F00CC8D4C /* Resources */ = {
+		E9F046241AA0343000A21444 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE687661A9E71BA00CC8D4C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DE687421A9E702000CC8D4C /* Resources */ = {
+		E9F0462E1AA0343100A21444 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -548,26 +552,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DE687351A9E701F00CC8D4C /* Sources */ = {
+		E9F046211AA0343000A21444 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE6876A1A9E71BA00CC8D4C /* MadokaTextField.swift in Sources */,
-				2DE6876E1A9E71BA00CC8D4C /* YokoTextField.swift in Sources */,
-				2DE687651A9E71BA00CC8D4C /* HoshiTextField.swift in Sources */,
-				2DE687671A9E71BA00CC8D4C /* IsaoTextField.swift in Sources */,
-				2DE6876D1A9E71BA00CC8D4C /* TextFieldsEffects.swift in Sources */,
-				2DE687691A9E71BA00CC8D4C /* KaedeTextField.swift in Sources */,
-				2DE687681A9E71BA00CC8D4C /* JiroTextField.swift in Sources */,
-				2DE6876B1A9E71BA00CC8D4C /* MinoruTextField.swift in Sources */,
+				E9F046511AA0345700A21444 /* MadokaTextField.swift in Sources */,
+				E9F046541AA0345700A21444 /* YokoTextField.swift in Sources */,
+				E9F0464D1AA0345700A21444 /* HoshiTextField.swift in Sources */,
+				E9F0464E1AA0345700A21444 /* IsaoTextField.swift in Sources */,
+				E9F046531AA0345700A21444 /* TextFieldsEffects.swift in Sources */,
+				E9F046501AA0345700A21444 /* KaedeTextField.swift in Sources */,
+				E9F0464F1AA0345700A21444 /* JiroTextField.swift in Sources */,
+				E9F046521AA0345700A21444 /* MinoruTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DE687401A9E702000CC8D4C /* Sources */ = {
+		E9F0462C1AA0343100A21444 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE6874E1A9E702000CC8D4C /* TextFieldEffectsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,20 +582,20 @@
 			target = 2DE61FC51A9DEADE0095179D /* fluxPay */;
 			targetProxy = 2DE61FE01A9DEADF0095179D /* PBXContainerItemProxy */;
 		};
-		2DE687471A9E702000CC8D4C /* PBXTargetDependency */ = {
+		E9F046331AA0343100A21444 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2DE687391A9E701F00CC8D4C /* TextFieldEffects */;
-			targetProxy = 2DE687461A9E702000CC8D4C /* PBXContainerItemProxy */;
+			target = E9F046251AA0343000A21444 /* TextFieldEffects */;
+			targetProxy = E9F046321AA0343100A21444 /* PBXContainerItemProxy */;
 		};
-		2DE687491A9E702000CC8D4C /* PBXTargetDependency */ = {
+		E9F046351AA0343100A21444 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2DE61FC51A9DEADE0095179D /* fluxPay */;
-			targetProxy = 2DE687481A9E702000CC8D4C /* PBXContainerItemProxy */;
+			targetProxy = E9F046341AA0343100A21444 /* PBXContainerItemProxy */;
 		};
-		2DE687501A9E702000CC8D4C /* PBXTargetDependency */ = {
+		E9F0463C1AA0343100A21444 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2DE687391A9E701F00CC8D4C /* TextFieldEffects */;
-			targetProxy = 2DE6874F1A9E702000CC8D4C /* PBXContainerItemProxy */;
+			target = E9F046251AA0343000A21444 /* TextFieldEffects */;
+			targetProxy = E9F0463B1AA0343100A21444 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -750,9 +753,10 @@
 			};
 			name = Release;
 		};
-		2DE687541A9E702000CC8D4C /* Debug */ = {
+		E9F046401AA0343100A21444 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -774,9 +778,10 @@
 			};
 			name = Debug;
 		};
-		2DE687551A9E702000CC8D4C /* Release */ = {
+		E9F046411AA0343100A21444 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -793,7 +798,7 @@
 			};
 			name = Release;
 		};
-		2DE687581A9E702000CC8D4C /* Debug */ = {
+		E9F046431AA0343100A21444 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -811,7 +816,7 @@
 			};
 			name = Debug;
 		};
-		2DE687591A9E702000CC8D4C /* Release */ = {
+		E9F046441AA0343100A21444 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -855,23 +860,21 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DE687531A9E702000CC8D4C /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+		E9F0463F1AA0343100A21444 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DE687541A9E702000CC8D4C /* Debug */,
-				2DE687551A9E702000CC8D4C /* Release */,
+				E9F046401AA0343100A21444 /* Debug */,
+				E9F046411AA0343100A21444 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		2DE687571A9E702000CC8D4C /* Build configuration list for PBXNativeTarget "TextFieldEffectsTests" */ = {
+		E9F046421AA0343100A21444 /* Build configuration list for PBXNativeTarget "TextFieldEffectsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DE687581A9E702000CC8D4C /* Debug */,
-				2DE687591A9E702000CC8D4C /* Release */,
+				E9F046431AA0343100A21444 /* Debug */,
+				E9F046441AA0343100A21444 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
